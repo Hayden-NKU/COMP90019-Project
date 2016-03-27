@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csw:GetRecords
+    service="CSW"
+    version="2.0.2"
+    resultType="hits"
+    outputSchema="http://www.opengis.net/cat/csw/2.0.2"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:csw="http://www.opengis.net/cat/csw/2.0.2"
+    xmlns:gml="http://www.opengis.net/gml">
+    <csw:Query typeNames="csw:Record">
+        <csw:ElementSetName>full</csw:ElementSetName>
+        <csw:Constraint version="1.1.0">
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>title</ogc:PropertyName>
+                    <ogc:Literal>grattan_Grattan_Employ_Inc2011</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+        </csw:Constraint>
+    </csw:Query>
+</csw:GetRecords>
