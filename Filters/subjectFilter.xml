@@ -2,7 +2,7 @@
 <csw:GetRecords
     service="CSW"
     version="2.0.2"
-    resultType="hits"
+    resultType="results"
     outputSchema="http://www.opengis.net/cat/csw/2.0.2"
     xmlns:ogc="http://www.opengis.net/ogc"
     xmlns:csw="http://www.opengis.net/cat/csw/2.0.2"
